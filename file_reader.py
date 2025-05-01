@@ -36,7 +36,7 @@ def process_file(directory, filename):
 
 # Get a list of all files in the current directory
 current_directory = os.getcwd()
-folder_directory = current_directory + "\\sales_files"
+folder_directory = f"{current_directory}\\sales_files"
 files = os.listdir(folder_directory)
 
 # Process each file in the directory

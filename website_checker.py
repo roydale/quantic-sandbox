@@ -19,7 +19,7 @@ def main():
     try:
         # Get a list of all files in the current directory
         current_directory = os.getcwd()
-        folder_directory = current_directory + "\\sites_file"
+        folder_directory = current_directory + "\\sites_files"
         
         with open(f"{folder_directory}\\addresses.txt", 'r') as file:
             addresses = file.readlines()

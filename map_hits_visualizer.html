@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Hits Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+      #map {
+        height: 90vh;
+      }
+      body {
+        font-family: sans-serif;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Upload Website Hits File</h2>
+    <input type="file" id="fileInput" accept=".txt" />
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      const map = L.map("map").setView([20, 0], 2);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 18,
+        attribution: "© OpenStreetMap contributors",
+      }).addTo(map);
+
+      document.getElementById("fileInput").addEventListener("change", async function (event) {
+        const file = event.target.files[0];
+        if (!file) return;
+
+        const text = await file.text();
+        const lines = text.split("\n").filter((line) => line.trim());
+
+        for (const line of lines) {
+          const match = line.match(/^(.+):\s*(\d+)$/);
+          if (!match) continue;
+          const location = match[1].trim();
+          const hits = match[2];
+
+          try {
+            const coords = await geocode(location);
+            if (coords) {
+              const marker = L.marker(coords).addTo(map);
+              marker.bindPopup(`<b>${location}</b><br>Hits: ${hits}`);
+            }
+          } catch (err) {
+            console.error(`Error processing ${location}:`, err);
+          }
+        }
+      });
+
+      async function geocode(location) {
+        const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(location)}`;
+        const response = await fetch(url);
+        const data = await response.json();
+        if (data && data.length > 0) {
+          return [parseFloat(data[0].lat), parseFloat(data[0].lon)];
+        }
+        return null;
+      }
+    </script>
+  </body>
+</html>

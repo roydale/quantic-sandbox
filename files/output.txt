@@ -1,0 +1,408 @@
+A/B testing
+Absolute reference
+Access control
+Accuracy
+Action-oriented question
+Administrative metadata
+Aesthetic (R)
+Agenda
+Aggregation
+Algorithm
+Aliasing
+Alternative text
+Analytical skills
+Analytical thinking
+Annotation
+Anscombe’s quartet
+Area chart
+Argument (R)
+Arithmetic operator
+Array
+Assignment operator
+Attribute
+Audio file
+AVERAGE
+AVERAGEIF
+Bad data source
+Balance
+Bar graph
+Bias
+Big data
+Boolean data
+Borders
+Box plot
+Bubble chart
+Bullet graph
+Business metric
+Business task
+C# 
+C++
+Calculated field
+Calculus
+CASE
+Case study
+CAST
+Causation
+Cell reference
+Changelog
+Channel
+Chart
+Circle view
+Clean data
+Cloud
+Cluster
+COALESCE
+Code chunk
+Coding
+Column chart
+Combo chart
+Compatibility
+Completeness
+Computer programming
+CONCAT
+CONCATENATE
+Conditional formatting
+Conditional statement
+Confidence interval
+Confidence level
+Confirmation bias
+Consent
+Consistency
+Context
+Continuous data
+CONVERT
+Cookie
+Correlation
+COUNT
+COUNTA
+COUNTIF
+COUNT DISTINCT
+CRAN (Comprehensive R Archive Network) (R)
+CREATE TABLE
+Cross-field validation
+CSS (Cascading Style Sheets)
+CSV (comma-separated values) file
+Currency
+Dashboard
+Data
+Data aggregation
+Data analysis
+Data analysis process
+Data analyst
+Data analytics
+Data anonymization
+Data bias
+Data blending
+Data composition
+Data constraints
+Data design
+Data-driven decision-making
+Data ecosystem
+Data element
+Data engineer
+Data ethics
+Data frame
+Data governance
+Data-inspired decision-making
+Data integrity
+Data interoperability
+Data life cycle
+Data manipulation
+Data mapping
+Data merging
+Data model
+Data privacy
+Data range
+Data replication
+Data science
+Data security
+Data storytelling
+Data strategy
+Data structure
+Data transfer
+Data type
+Data validation
+Data validation process
+Data visualization
+Data warehousing specialist
+Database
+Dataset
+DATEDIF
+Decision tree
+Delimiter
+Density map
+Descriptive metadata
+Design thinking
+Digital photo
+Dirty data
+Discrete data
+DISTINCT
+Distribution graph
+Diverging color palette
+Donut chart
+dplyr (R)
+DROP TABLE
+Duplicate data
+Dynamic visualizations
+Elevator pitch
+Emphasis
+Engagement
+Equation
+Estimated response rate
+Ethics
+External data
+Facets (R)
+Factor (R)
+Fairness
+Field
+Field length
+Fill handle
+Filled map
+Filtering
+Find and replace
+First-party data
+Float
+Foreign key
+Formula
+Framework
+FROM
+Function
+Function (R)
+FWF (fixed-width file)
+GAM (generalized additive model) smoothing (R)
+Gantt chart
+Gap analysis
+Gauge chart
+General Data Protection Regulation of the European Union (GDPR)
+Geolocation
+Geom (R)
+ggplot2 (R)
+Good data source
+GROUP BY
+HAVING
+head() (R)
+Header
+Headline
+Heat map
+Highlight table
+Histogram
+HTML (Hypertext Markup Language)
+HTML5
+Hypothesis
+Hypothesis testing
+IDE (Integrated Development Environment)
+Incomplete data
+Inconsistent data
+Incorrect/inaccurate data
+Inline code
+INNER JOIN 
+Inner query
+Internal data
+Interpretation bias
+Java
+JOIN
+Jupyter Notebook
+Label
+Labels and annotations (R)
+Leading question
+LEFT
+LEFT JOIN
+Legend
+LEN
+Length
+Library
+LIMIT
+Line graph
+List
+Live data
+Loess smoothing (R)
+Log file
+Logical operator
+Long data
+Mandatory
+Map
+Mapping (R)
+Margin of error
+Markdown (R)
+Mark
+MATCH
+Math expression
+Math function
+Matrix
+MAX
+MAXIFS
+McCandless Method
+Measurable question
+Mental model
+Mentor
+Merger
+Metadata
+Metadata repository
+Metric
+Metric goal
+MID
+MIN
+MINIFS
+Modulo
+Movement
+mutate() (R)
+Naming conventions
+Narrative
+Nested
+Nested function
+Networking
+Nominal data
+Normalized database
+Notebook
+Null
+Observation
+Observer bias
+Open data
+Open-source
+Openness
+Operator
+ORDER BY
+Order of operations
+Ordinal data
+Outdated data
+OUTER JOIN
+Outer query
+Ownership
+Package (R)
+Packed bubble chart
+Pattern
+PHP (Hypertext Preprocessor)
+Pie chart
+Pipe (R)
+Pivot chart
+Pivot table
+Pixel
+Population
+Portfolio
+Pre-attentive attributes
+Primary key
+Problem domain
+Problem types
+Profit margin
+Programming language
+Proportion
+Python
+Qualitative data
+Quantitative data
+Query
+Query language
+R
+R Markdown
+R Notebook
+Random sampling
+Range
+Ranking
+readr (R)
+Record
+Redundancy
+Reframing
+Regular expression (RegEx)
+Relational database
+Relational operator
+Relativity
+Relevant question
+Remove duplicates
+Repetition
+Report
+Return on investment (ROI)
+Revenue
+Rhythm
+RIGHT
+RIGHT JOIN
+Root cause
+ROUND
+Ruby
+Sample
+Sampling bias
+Scatterplot
+Schema
+Scope of work (SOW)
+Second-party data
+SELECT
+SELECT INTO
+Shiny (R)
+Small data
+SMART methodology
+Smoothing (R)
+Smoothing line (R)
+Social media
+Soft skills
+Sort range
+Sort sheet
+Sorting
+Specific question
+SPLIT
+Sponsor
+Spotlightling
+Spreadsheet
+SQL
+Stakeholders
+Static data
+Static visualization
+Statistical power
+Statistical significance
+Statistics
+Story
+String data type
+Structural metadata
+Structured data
+Structured Query Language
+Structured thinking
+Subquery
+SUBSTR
+Substring
+Subtitle
+SUM
+SUMIF
+Summary table
+SUMPRODUCT
+Swift
+Symbol map
+Syntax
+Tableau
+Technical mindset
+Temporary table
+Text data type
+Text string
+Third-party data
+Tibble (R)
+Tidy data (R)
+tidyr (R)
+Tidyverse (R)
+Time-bound question
+Transaction transparency
+Transferable skills
+TRIM
+TSV (Tab-separated values file)
+Turnover rate
+Typecasting
+Unbiased sampling
+Underscores
+Unfair question
+Unique
+United States Census Bureau
+Unity
+Unstructured data
+Validity
+VALUE
+Variable (R)
+Variety
+Vector (R)
+Verification
+Video file
+Vignette (R)
+Visual form
+Visualization
+VLOOKUP
+WHERE
+Wide data
+WITH
+World Health Organization
+X-axis
+Y-axis
+YAML
